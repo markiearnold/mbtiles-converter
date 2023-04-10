@@ -1,5 +1,5 @@
-import { TileMatrix } from "../../spec/types/tileMatrix";
-import { TileMatrixLimits } from "../../spec/types/tileMatrixLimits";
+import { TileMatrix } from "@com-tiles/spec/types/tileMatrix";
+import { TileMatrixLimits } from "@com-tiles/spec/types/tileMatrixLimits";
 import { MBTilesRepository } from "./mbTilesRepository";
 
 export interface TileRecord {

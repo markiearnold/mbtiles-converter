@@ -1,6 +1,6 @@
-import { Metadata } from "../../spec";
-import { TileMatrix } from "../../spec/types/tileMatrix";
-import { SpaceFillingCurveOrdering } from "../../spec/types/spaceFillingCurveOrdering";
+import { Metadata } from "@com-tiles/spec";
+import { TileMatrix } from "@com-tiles/spec/types/tileMatrix";
+import { SpaceFillingCurveOrdering } from "@com-tiles/spec/types/spaceFillingCurveOrdering";
 
 export type LngLat = [lon: number, lat: number];
 export type BoundingBox = [minLon: number, minLat: number, maxLon: number, maxLat: number];

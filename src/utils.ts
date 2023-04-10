@@ -1,4 +1,4 @@
-import { TileMatrix } from "../../spec/types/tileMatrix";
+import { TileMatrix } from "@com-tiles/spec/types/tileMatrix";
 
 export function toBytesLE(num: number, numBytes = 5): Buffer {
     const buffer = Buffer.alloc(numBytes);

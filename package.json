@@ -21,6 +21,8 @@
     "format": "prettier --write \"**/*.ts\""
   },
   "dependencies": {
+    "@com-tiles/spec": "git+ssh://git@github.com:markiearnold/spec.git",
+    "@com-tiles/provider": "git+ssh://git@github.com:markiearnold/provider.git",
     "commander": "^9.0.0",
     "sqlite3": "^5.0.2"
   },

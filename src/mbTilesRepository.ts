@@ -1,9 +1,9 @@
 import { Database, OPEN_READONLY } from "sqlite3";
 import { promisify } from "util";
-import { Metadata } from "../../spec";
-import { TileMatrixLimits } from "../../spec/types/tileMatrixLimits";
+import { Metadata } from "@com-tiles/spec";
+import { TileMatrixLimits } from "@com-tiles/spec/types/tileMatrixLimits";
 import WebMercatorQuadMetadataBuilder from "./metadataBuilder";
-import { TileMatrix } from "../../spec/types/tileMatrix";
+import { TileMatrix } from "@com-tiles/spec/types/tileMatrix";
 import { TileRecord, TileInfoRecord } from "./tileProvider";
 
 export class MBTilesRepository {

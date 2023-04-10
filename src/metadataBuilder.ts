@@ -1,6 +1,6 @@
-import { Metadata } from "../../spec";
-import { TileMatrix } from "../../spec/types/tileMatrix";
-import { TileFormat } from "../../spec/types/tileFormat";
+import { Metadata } from "@com-tiles/spec";
+import { TileMatrix } from "@com-tiles/spec/types/tileMatrix";
+import { TileFormat } from "@com-tiles/spec/types/tileFormat";
 import createWmqTileMatrixSet, { BoundingBox, TileMatrixFactory } from "./tileMatrixFactory";
 
 export default class WebMercatorQuadMetadataBuilder {

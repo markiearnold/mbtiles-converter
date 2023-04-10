@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 import fs from "fs";
 import { program } from "commander";
-import { ComtIndex } from "../../provider";
-import { Metadata } from "../../spec";
+import { ComtIndex } from "@com-tiles/provider";
+import { Metadata } from "@com-tiles/spec";
 import { MBTilesRepository } from "./mbTilesRepository";
 import { toBytesLE } from "./utils.js";
 import pkg from "../package.json";
